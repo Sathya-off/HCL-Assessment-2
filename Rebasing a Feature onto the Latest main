@@ -1,0 +1,5 @@
+git switch feature/profile
+git rebase main
+git log --oneline --graph --all
+git switch main
+git merge --ff-only feature/profile
