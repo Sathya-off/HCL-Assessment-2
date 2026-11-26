@@ -1,0 +1,4 @@
+git fetch origin
+git log main..origin/main --oneline
+git merge origin/main
+git push origin main
