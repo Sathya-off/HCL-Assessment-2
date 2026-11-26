@@ -1,0 +1,3 @@
+git switch main
+git merge --no-ff -m "Merge feature/reports into main" feature/reports
+git log --oneline --graph --all
