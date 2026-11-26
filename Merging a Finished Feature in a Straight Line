@@ -1,0 +1,3 @@
+git switch main
+git merge --ff-only feature/search
+git log --oneline --graph --all
